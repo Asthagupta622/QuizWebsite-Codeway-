@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website HTML CSS JS| ASTHA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz.</a>
+            <nav class="navbar">
+                <a href class="active"> Home</a>
+                <!-- <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a> -->
+
+            </nav>
+        </header>
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>MEGA QUIZ</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website Tutorial</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+                    <h2 class="question-text">What does HTML stand for?</h2>
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language </span>
+                        </div>
+                        <div class="option">
+                            <span>A. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Home Text Multi Language</span>
+                        </div> -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Quiz Result</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your Score 0 out of 5</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <p>A quiz is a brief assessment or competition designed to test someone's knowledge, understanding,
+                        or
+                        skills on a particular subject or range of topics. Typically consisting of a series of
+                        questions,
+                        quizzes can be educational, entertaining, or competitive in nature. They serve as effective
+                        tools
+                        for learning, evaluation, and engagement, often found in classrooms, online platforms, and
+                        social
+                        gatherings.</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1.Introduction: Start with a brief introduction to the quiz topic and format.</span>
+        <span class="info">2.Rules: Clearly outline the rules and expectations for participants.</span>
+        <span class="info">3.Scoring: Describe how scoring will be handled and when results will be provided.</span>
+        <span class="info">4.Behavior: Remind participants of expected etiquette and behavior during the quiz.</span>
+        <span class="info">5.At the end every participants get their score.</span>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
